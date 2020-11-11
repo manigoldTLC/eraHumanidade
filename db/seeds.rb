@@ -6,10 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Humanity.create(inicio: 3500, fim: 476, motivo: 'O acontecimento que marca o fim da Antiguidade é a queda do Império Romano do Ocidente.', figura: 'Alexandre, O Grande')
-Humanity.create(inicio: 476, fim: 1453, motivo: 'O acontecimento que marca o seu fim é a tomada de Constantinopla pelos turcos em 1453', figura: 'Carlos Magno')
-Humanity.create(inicio: 1453, fim: 1789, motivo: 'O acontecimento que marca o seu fim foi a Revolução Francesa em 1789', figura: 'Pedro Álvares Cabral')
-Humanity.create(inicio: 1789, fim: 2020, motivo: 'É o período atual da história', figura: 'D.Pedro 2')
+Humanity.create(motivo: 'O acontecimento que marca o fim da Antiguidade é a queda do Império Romano do Ocidente.', figura: 'Alexandre, O Grande')
+Humanity.create(motivo: 'O acontecimento que marca o seu fim é a tomada de Constantinopla pelos turcos em 1453', figura: 'Carlos Magno')
+Humanity.create(motivo: 'O acontecimento que marca o seu fim foi a Revolução Francesa em 1789', figura: 'Pedro Álvares Cabral')
+Humanity.create(motivo: 'É o período atual da história', figura: 'D.Pedro 2')
 
 Figure.create(nome: 'Tutancâmon', idade: 18, morte: 'desconhecida', feitos: 'nenhum significativo', era: 'idade antiga')
 Figure.create(nome: 'Homero', idade: 30, morte: 'afogado', feitos: 'grande poeta', era: 'idade antiga')
