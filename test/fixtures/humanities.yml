@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  inicio: 1
+  fim: 1
+  motivo: MyString
+  figura: MyString
+
+two:
+  inicio: 1
+  fim: 1
+  motivo: MyString
+  figura: MyString
